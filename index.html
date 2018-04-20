@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SU TEMA">
+    <meta name="author" content="SU NOMBRE">
+    <title>Valparaíso</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="estilo.css" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Valparaíso</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#primera">Demografía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#segunda">Economía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#tercera">Educación</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col text-center">
+          	<h1>VALPARAÍSO</h1>
+          	<h2>La Joya del Pacífico</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="primera">
+      <div class="container">
+        <div class="row">
+
+         <div class="col-md-6 pt-2">
+            
+               <svg width="360" height="360" style="background:#DCE1EA
+                                                ;">
+          <g>
+            <circle r="30" cx="180" cy="40"/>
+            <text x="178" y="40" fill="#28539B"></text>
+            <circle r="30" cx="180" cy="100"/>
+            <text x="178" y="100" fill="#28539B"></text>
+            <circle r="30" cx="180" cy="180"/>
+            <text x="178" y="180" fill="#28539B"></text>
+            <circle r="30" cx="180" cy="280"/>
+            <text x="178" y="280" fill="#28539B"></text>
+              
+          </g>
+        </svg>
+            
+          
+      </div>
+           <div class="col-md-6 pt-2"> 
+          	<h3 class="mt-3">Demografía</h3>
+            <p>MIGRACIÓN</p>
+          	<p>Durante 2016 se entregaron 9.476 visas a inmigrantes que declararon domicilio en Valparaíso. Los principales países de origen son: Venezuela y Colombia. La mayoría de ellos cuenta con un nivel educativo de Educación Media.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="segunda" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="mt-3">Economía</h3>
+            <p>COMERCIO</p>
+            <p>Las principales exportaciones de Valparaíso son Frutas Tropicales, que representa 14% del total de las exportaciones de Valparaíso, seguida por Piezas-Repuestos que representa el 11%.</p>
+            <p>Las principales importaciones de Valparaíso son Petróleo Crudo, que representa 56% del total de las importaciones de Valparaíso, seguida por, Aceites de petróleo, que representa el 15% de éstas.</p>
+          </div>
+          <div class="col-lg-6 text-right dataviz-segunda"></div>
+        </div>
+      </div>
+    </section>
+    <section id="tercera">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 dataviz-tercera"></div>
+          <div class="col-lg-6">
+            <h3 class="mt-3">Educación</h3>
+            <p>DESEMPEÑO</p>
+            <p>En 2016, el promedio PSU en Valparaíso de escuelas Municipales fue 445 puntos, de escuelas Particulares Subvencionadas fue 502 puntos, de escuelas Particulares Pagadas fue 585 puntos y de escuelas de Administración Delegada fue 467 puntos.</p>
+            <p>Las comunas de mejor desempeño en PSU de Valparaíso son Con Cón (550,9 puntos), Villa Alemana (525,9 puntos), y Viña Del Mar (525,7 puntos)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+      	<div class="row">
+      		<div class="col">
+		        <p class="small">Desarrollado por <a href="mailto:mail@mail.com">Camila Jara Cuevas</a> | Seminario Gráfica Computacional I 2018, Primer Semestre</p>
+		        <ul class="list-inline small">
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#primera">Demografía</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#segunda">Economía</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#tercera">Educación</a>
+		          </li>
+		        </ul>
+      		</div>
+      	</div>
+      </div>
+    </footer>
+
+    <!-- Javascript de visualizaciones-->
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="d3/primera.js"></script>
+    
+	<script src="d3/segunda.js"></script>
+	<script src="d3/tercera.js"></script>
+    <!-- Javascript de Bootstrap -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+
+</html>
